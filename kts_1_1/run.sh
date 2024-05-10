@@ -1,0 +1,1 @@
+docker run -dp 127.0.0.1:8899:8899 --name kts_1_1 kts_1_1

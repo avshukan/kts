@@ -1,0 +1,1 @@
+docker build -t kts_1_1 .

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodeport
+  namespace: vaultwarden
+  labels:
+    app.kubernetes.io/name: warden
+    app.kubernetes.io/component: svc
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: warden
+      app.kubernetes.io/component: svc
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: http

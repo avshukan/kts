@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    app.kubernetes.io/name: myapp
+    app.kubernetes.io/component: web
+spec:
+  containers:
+    - name: web
+      image: myapp:latest
+      imagePullPolicy: IfNotPresent
+      ports:
+        - containerPort: 8000
+          name: http

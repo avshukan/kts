@@ -1,0 +1,2477 @@
+{
+    "data": {
+        "uuid": "fc798124-166a-4314-a580-d9d95bc384f9",
+        "ui_id": "fc7981",
+        "status": "in_progress",
+        "status_ui": "В работе",
+        "quantity": 1,
+        "cross_selling_order": {
+            "uuid": "89e3a151-88be-4b71-a815-ff070f9f6116"
+        },
+        "legal_execution_stage": {
+            "uuid": "7e5e5e6a-36c3-40cf-8436-74baefa91349",
+            "name": "Обсуждение",
+            "is_for_orders": true,
+            "is_for_payment": true,
+            "description": null
+        },
+        "sale_is_stopped": false,
+        "business_domain": {
+            "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+            "name": "Финансовые услуги"
+        },
+        "business_subdomain": {
+            "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2",
+            "business_domain": {
+                "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+            },
+            "name": "Кредитование",
+            "description": "Оформление банковских продуктов"
+        },
+        "good_ref_type": {
+            "uuid": "02d41636-4ca4-45da-a8eb-c88de38a0a90",
+            "name": "Обобщающая потребность"
+        },
+        "needs_and_orders_good_type": {
+            "uuid": "f17c233d-bdf3-46e6-96ae-a841e4c6443b",
+            "name": "Кредитование (АСП/НА)",
+            "good_ref_type": {
+                "uuid": "02d41636-4ca4-45da-a8eb-c88de38a0a90"
+            },
+            "is_general": true,
+            "is_detail": false,
+            "may_be_paid": false,
+            "f_and_i_product": {
+                "uuid": null
+            },
+            "business_domain": {
+                "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+            },
+            "good_class": {
+                "uuid": "ef970858-161b-4c81-af6b-cd405bd46013"
+            },
+            "business_subdomain": {
+                "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2"
+            }
+        },
+        "needs_and_orders_class": {
+            "uuid": "82109a9a-409a-11ed-b878-0242ac120002",
+            "name": "Продажа",
+            "operation_direction": "1",
+            "is_return": false
+        },
+        "sale_stop_reason": {
+            "uuid": null,
+            "name": null
+        },
+        "good_class": {
+            "uuid": "c584b044-f227-4f1c-857b-b1400b93278c",
+            "business_domain": {
+                "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+            },
+            "name": "Страховки + прочее"
+        },
+        "client_class": {
+            "uuid": "eb4becee-37a5-4292-bb69-4cd600ce0f4d",
+            "needs_and_orders_class": {
+                "uuid": "82109a9a-409a-11ed-b878-0242ac120002"
+            },
+            "name": "Физ. лицо или единичная продажа юр. лицо"
+        },
+        "priority_for_recommendation_of_service": {
+            "uuid": null,
+            "name": null,
+            "sort_priority": null
+        },
+        "need_returned": {
+            "uuid": "ae53f74b-6dc2-4a05-8a4d-8ad22e53d14d"
+        },
+        "accounting_category": {
+            "uuid": null,
+            "name": null
+        },
+        "client": {
+            "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+            "ui_id": "14326639",
+            "hide_personal_data": null,
+            "archived": false,
+            "is_client": true,
+            "is_forbidden": {
+                "status": false,
+                "reason": null
+            },
+            "is_counterparty": null,
+            "is_approved_client": false,
+            "is_employee": false,
+            "person": {
+                "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+                "person_type": {
+                    "name": "Физическое лицо",
+                    "uuid": "5e3354b1-b4f6-4d20-95b7-8df0d6e2b352"
+                },
+                "date_begin": "2024-01-28T21:00:00.000Z",
+                "date_finish": null,
+                "surname": "Семенов",
+                "name": "Остап",
+                "middlename": "Русланович",
+                "gender_is_female": false,
+                "birth_date": "1997-07-06T00:00:00.000Z",
+                "driving_begin_date": null,
+                "driving_begin_date_is_calc": false,
+                "photo_url": null,
+                "is_married": false,
+                "famous_person_type": null,
+                "hide_personal_data": null,
+                "children": [],
+                "comments": null,
+                "padeg": [
+                    {
+                        "uuid": "98d583e2-9165-45f3-adc8-4e9a151fc488",
+                        "name": "рнтам вунасо евчеспсоиол",
+                        "padeg_type": {
+                            "uuid": "afab98ea-1b38-4089-9135-ac4516d46fd4",
+                            "name": "Именительный"
+                        }
+                    },
+                    {
+                        "uuid": "a6b41024-261d-44e9-8ef6-686e695f4da9",
+                        "name": "слнсаор  теочеснвпомауив",
+                        "padeg_type": {
+                            "uuid": "03b34056-071c-43e7-99d2-85795f16bb63",
+                            "name": "Родительный"
+                        }
+                    },
+                    {
+                        "uuid": "9487d581-0eb5-4abf-ad78-5cfdd104e72c",
+                        "name": "нумстиоаепвв счасонлео р",
+                        "padeg_type": {
+                            "uuid": "4ba3a36e-0247-4d27-8003-5ed3725d4b61",
+                            "name": "Дательный"
+                        }
+                    },
+                    {
+                        "uuid": "9b9a91f6-b376-4212-884a-c38ebc9def7e",
+                        "name": "рнтвеавнапеуч лосоомс ис",
+                        "padeg_type": {
+                            "uuid": "a9b9c242-3312-4dd5-8d76-676501fbfc8f",
+                            "name": "Винительный"
+                        }
+                    },
+                    {
+                        "uuid": "7c8fe1e2-c3da-4869-a48c-4619d5c687d1",
+                        "name": "утссечомлрноаоаеп  инсвв",
+                        "padeg_type": {
+                            "uuid": "a29d8177-35e3-4222-876b-02be5da84ce0",
+                            "name": "Творительный"
+                        }
+                    },
+                    {
+                        "uuid": "2fb10390-6100-4af1-89b8-017087a95b60",
+                        "name": "пср лсоусвеонаиотам нчев",
+                        "padeg_type": {
+                            "uuid": "8cbb83f8-e93b-481d-8a34-2f2e5d5dd110",
+                            "name": "Предложный"
+                        }
+                    }
+                ]
+            },
+            "telephones": [
+                {
+                    "uuid": "80462fae-5967-484c-b0de-5eca989e2678",
+                    "is_main": false,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277290858",
+                    "number": "+79277290858",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-01-28T21:00:00.000Z",
+                    "deactivation_date": "2024-02-06T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "grsidorkina",
+                    "is_active": false
+                },
+                {
+                    "uuid": "cfce462f-6572-4f7e-a69a-9cf948c5cd86",
+                    "is_main": true,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277920885",
+                    "number": "+79277920885",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-02-06T21:00:00.000Z",
+                    "deactivation_date": "2200-12-30T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "iptarasova",
+                    "is_active": true
+                }
+            ],
+            "emails": [
+                {
+                    "uuid": "3e787ef4-ba73-4d35-bb72-1d208c077e8c",
+                    "email_address": "ESAssylov@rolf.ru",
+                    "is_verified": false,
+                    "is_main": true,
+                    "deactivation_date": null,
+                    "is_archived": false
+                }
+            ],
+            "addresses": [],
+            "status": "active"
+        },
+        "source_vehicle": {
+            "uuid": "0d7d768e-b1f4-47a9-901e-3bda6fc57752",
+            "oracle_id": 12565539,
+            "ui_id": "12565539",
+            "vin": "Z94CT41CBBR006989",
+            "state_number": "А474НО750",
+            "price": 683000,
+            "owner_uuid": "a5a4f423-ffee-489b-81a7-4b37542f991c",
+            "vehicle_group_type": {
+                "id": "for_client",
+                "name": "Клиентские",
+                "description": null
+            },
+            "vehicle_type": {
+                "id": "has_owner",
+                "name": "С владельцем",
+                "description": null
+            },
+            "vehicle_class": {
+                "id": "ТипТС_322ecf8d-1bd7-4c39-8a25-46895ad281e6",
+                "name": "Тип ТС - Легковой автомобиль",
+                "description": null
+            },
+            "mileage": {
+                "length": 122379,
+                "update_date": "2023-04-22T18:41:00.000Z",
+                "employee_uuid": "de82d756-465c-43de-a083-b9c1b866698d"
+            },
+            "equipment": {
+                "vehicle_portrait_as_mdm_reference": null,
+                "brand": {
+                    "id": "Марка_Hyundai",
+                    "name": "Hyundai",
+                    "description": null
+                },
+                "model": {
+                    "id": "Модель_HYUNDAI_SOLARIS",
+                    "name": "Solaris",
+                    "description": null
+                },
+                "generation": {
+                    "id": "Поколение_HYUNDAI_SOLARIS_I",
+                    "name": "I",
+                    "description": null,
+                    "begin_year": 2010,
+                    "end_year": 2014
+                },
+                "configuration": {
+                    "id": "Конфигурация_HYUNDAI_SOLARIS_6847474_6847477",
+                    "name": "Седан",
+                    "description": null
+                },
+                "tech": {
+                    "id": "НаборТехническихХарактеристик_HYUNDAI_SOLARIS_6847474_6847477_6847483",
+                    "name": "1.4 AT (107 л.с.)",
+                    "description": null
+                },
+                "other_info": {
+                    "body_type": {
+                        "id": "Седан",
+                        "name": "Седан",
+                        "description": null
+                    },
+                    "door_num": 4,
+                    "drive": {
+                        "id": "Передний привод",
+                        "name": "Передний привод",
+                        "description": null
+                    },
+                    "engine": {
+                        "id": "Бензиновый",
+                        "name": "Бензиновый",
+                        "description": null,
+                        "horsepower": 107,
+                        "k_watt_power": 79,
+                        "volume": 1396,
+                        "is_turbocharged": false,
+                        "number": "G4FA AW198967"
+                    },
+                    "transmission": {
+                        "id": "Автоматическая коробка",
+                        "name": "Автоматическая коробка",
+                        "description": null
+                    }
+                },
+                "year": 2011,
+                "tank_capacity": null,
+                "paintwork_is_factory_new": false,
+                "vehicle_condition": {
+                    "id": "Плохое",
+                    "name": "Плохое",
+                    "description": null
+                },
+                "interior_color": {
+                    "id": "Темный",
+                    "name": "Темный",
+                    "description": null
+                },
+                "exterior_color": {
+                    "id": "Черный",
+                    "name": "Черный",
+                    "description": null
+                },
+                "interior_trim": {
+                    "id": "Ткань",
+                    "name": "Ткань",
+                    "description": null
+                },
+                "seats_count": 5
+            },
+            "documents": [
+                {
+                    "persons_or_org_document_b4state_registration_document_uuid": "a5a4f423-ffee-489b-81a7-4b37542f991c",
+                    "vehicle_passport_series": "78НЕ",
+                    "vehicle_passport_number": "298678",
+                    "vehicle_passport_marka_model": "Hyundai Solaris",
+                    "vehicle_passport_zvet_kuzova": "Черный",
+                    "vehicle_passport_gave_date": "2011-02-17",
+                    "vehicle_passport_vehicle_state_registration_date": "2011-03-17",
+                    "vehicle_passport_engine_number": "G4FA AW198967",
+                    "vehicle_passport_body_number": "Z94CT41CBBR006989",
+                    "vehicle_passport_chassis_number": "ОТСУТСТВУЕТ",
+                    "vehicle_passport_owners_quantity": null,
+                    "vehicle_passport_production_country_d_uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                    "vehicle_passport_tip_ts": "ЛЕГКОВОЙ",
+                    "vehicle_passport_free_space_quantity": null,
+                    "vin": "Z94CT41CBBR006989",
+                    "keys_quantity": null,
+                    "vehicle_passport_is_available": false,
+                    "vehicle_passport_is_duplicate": false,
+                    "vehicle_passport_is_electronic": false,
+                    "vehicle_passport_need_to_be_changed": false,
+                    "service_book_is_available": false,
+                    "instruction_manual_is_available": false,
+                    "vehicle_passport_gave": "ООО \"ХММР\"",
+                    "vehicle_passport_owner_in_pts": true,
+                    "vehicle_passport_gtd": null,
+                    "vehicle_passport_gtd_dt": null,
+                    "vehicle_passport_paper_scan_image_url": [],
+                    "vehicle_passport_e_pts_po_b4owner_id": null,
+                    "vehicle_passport_e_pts_po_b4trustee_id": null,
+                    "vehicle_passport_e_pts_owner_trust_id": null,
+                    "vehicle_passport_e_pts_reasond_id": null,
+                    "vehicle_passport_e_pts_cg_bf_operb_id": null,
+                    "vehicle_passport_e_pts_cg_pt_dc_id": null,
+                    "vehicle_passport_e_pts_cg_bf_oper_typd_id": null,
+                    "vehicle_passport_e_pts_category": null,
+                    "vehicle_passport_e_pts_category_tp_tc": null,
+                    "vehicle_passport_e_pts_ecology_class": null,
+                    "vehicle_passport_e_pts_wheel_cfg": null,
+                    "vehicle_passport_e_pts_body_type": null,
+                    "vehicle_passport_e_pts_engine_type": null,
+                    "vehicle_passport_e_pts_cylinder": null,
+                    "vehicle_passport_e_pts_cylinder_volume": null,
+                    "vehicle_passport_e_pts_power": null,
+                    "vehicle_passport_e_pts_transmission": null,
+                    "vehicle_passport_e_pts_gear_shift_type": null,
+                    "vehicle_passport_e_pts_gear_shift_num": null,
+                    "vehicle_passport_e_pts_steering_descr": null,
+                    "vehicle_passport_e_pts_steering_pos": null
+                }
+            ]
+        },
+        "dealership": {
+            "uuid": "2b441b9a-26fe-4548-8c96-5e819e1cc6ab",
+            "name": "ДЦ Звезда Столицы Варшавка Мерседес",
+            "oracle_id": 12,
+            "is_for_used_vehicles": false,
+            "organization": {
+                "uuid": "2a484a4a-42f2-44ff-909a-9b6f2693d396"
+            },
+            "city": null,
+            "showroom": null,
+            "location": null,
+            "cluster": null,
+            "vehicle_manufacturer_brand": {
+                "uuid": "a89d4463-b41a-45db-80a8-ad71565d52a0",
+                "name_latin": "Mercedes-Benz",
+                "name_russian": "Мерседес-Бенц"
+            },
+            "telephone_number": "+7 (495) 845-34-47",
+            "working_hours": "Ежедневно с 8:00 до 22:00 (сервис с 8:00 до 22:00)",
+            "www_address": [
+                "rolf-probeg.ru"
+            ],
+            "court_of_law_name": "Чертановский районный суд г. Москвы."
+        },
+        "salesman": {
+            "rolf_hr": {
+                "internal_organization_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                "post_name": "Руководитель",
+                "post_name_rod_padeg": "Руководителя",
+                "department_name": "Направление автомобилей с пробегом",
+                "post_name_tvr_padeg": "Руководителем",
+                "department_cfo": "Trade-in_Кред_и_Страх",
+                "department_in_organization_structure": "Направление автомобилей с пробегом/Отдел продаж финансовых услуг/Филиал «Алтуфьево»",
+                "tabelniy_nomer": "48291",
+                "post_name_dat_padeg": "Руководителю"
+            },
+            "oracle_id": 1405476,
+            "documents": [
+                {
+                    "vehicle_state_registration_number": null,
+                    "principal_for_power_of_attorney_uuid": null,
+                    "type": {
+                        "class_uuid": "b4b13802-8173-4be6-8207-196fe0f9d1fc",
+                        "roditelny_padezh": null,
+                        "imenitelny_padezh": null,
+                        "name": "Паспорт гражданина РФ",
+                        "short_name": "Паспорт РФ",
+                        "uuid": "590daa53-72b2-4520-8232-25ff67607617"
+                    },
+                    "uuid": "4e318da7-8a55-476e-8c64-ec2a056d1f20",
+                    "is_verified": true,
+                    "is_hidden_for_mobile_application": false,
+                    "gave_department_code": "730-002",
+                    "expired_date": "2030-11-25T00:00:00.000Z",
+                    "number": "168836",
+                    "gave_organization_name": "Отделом Уфмс России по Ульяновской Области в Засвияжском районе гор.Ульяновска",
+                    "date_begin": "2022-04-14T21:00:00.000Z",
+                    "subtype": null,
+                    "series": "0378",
+                    "business_domain": null,
+                    "date_finish": "2030-12-24T21:00:00.000Z",
+                    "vin": null,
+                    "valid_since_date": "2009-06-02T00:00:00.000Z",
+                    "legal_user_uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef",
+                    "class": {
+                        "name": "Удост-е личности",
+                        "uuid": "b4b13802-8173-4be6-8207-196fe0f9d1fc"
+                    },
+                    "account_number_for_transponder": null
+                },
+                {
+                    "vehicle_state_registration_number": null,
+                    "principal_for_power_of_attorney_uuid": "f19bbf69-b019-4a74-be9d-b9e484a40e7c",
+                    "type": {
+                        "class_uuid": "c3d8f243-b16d-44f2-8e59-8c3387e51d31",
+                        "roditelny_padezh": "Доверенности",
+                        "imenitelny_padezh": "Доверенность",
+                        "name": "Доверенность",
+                        "short_name": "Доверенность",
+                        "uuid": "8cb51f0c-9bff-46e7-b455-8db0e3a401fb"
+                    },
+                    "uuid": "c1c0bcde-7f6e-430f-8ed8-4094cbac3dd2",
+                    "is_verified": true,
+                    "is_hidden_for_mobile_application": false,
+                    "gave_department_code": null,
+                    "expired_date": "2024-09-30T00:00:00.000Z",
+                    "number": "А-ФДМ/21-215",
+                    "gave_organization_name": "АО \"РОЛЬФ\" Филиал ДМИТРОВКА",
+                    "date_begin": "2021-09-30T21:00:00.000Z",
+                    "subtype": null,
+                    "series": null,
+                    "business_domain": {
+                        "name": "Финансовые услуги",
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "date_finish": "2024-09-29T21:00:00.000Z",
+                    "vin": null,
+                    "valid_since_date": "2021-10-01T00:00:00.000Z",
+                    "legal_user_uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef",
+                    "class": {
+                        "name": "Доверенность",
+                        "uuid": "c3d8f243-b16d-44f2-8e59-8c3387e51d31"
+                    },
+                    "account_number_for_transponder": null
+                },
+                {
+                    "vehicle_state_registration_number": null,
+                    "principal_for_power_of_attorney_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                    "type": {
+                        "class_uuid": "c3d8f243-b16d-44f2-8e59-8c3387e51d31",
+                        "roditelny_padezh": "Доверенности",
+                        "imenitelny_padezh": "Доверенность",
+                        "name": "Доверенность",
+                        "short_name": "Доверенность",
+                        "uuid": "8cb51f0c-9bff-46e7-b455-8db0e3a401fb"
+                    },
+                    "uuid": "83e5b7ff-e356-4d23-a4c8-f8d711ba280f",
+                    "is_verified": true,
+                    "is_hidden_for_mobile_application": false,
+                    "gave_department_code": null,
+                    "expired_date": "2025-12-31T00:00:00.000Z",
+                    "number": "А-ФРА/23-01037",
+                    "gave_organization_name": "АО \"РОЛЬФ\", Филиал \"Алтуфьево\"",
+                    "date_begin": "2022-12-31T21:00:00.000Z",
+                    "subtype": null,
+                    "series": null,
+                    "business_domain": {
+                        "name": "Финансовые услуги",
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "date_finish": "2025-12-30T21:00:00.000Z",
+                    "vin": null,
+                    "valid_since_date": "2023-01-01T00:00:00.000Z",
+                    "legal_user_uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef",
+                    "class": {
+                        "name": "Доверенность",
+                        "uuid": "c3d8f243-b16d-44f2-8e59-8c3387e51d31"
+                    },
+                    "account_number_for_transponder": null
+                }
+            ],
+            "ui_id": "23602634",
+            "telephones": [
+                {
+                    "country": {
+                        "location_precise": "Восточная Европа",
+                        "code": "643",
+                        "name_eng": "Russian Federation",
+                        "full_name": null,
+                        "name_rus": "Российская Федерация",
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "short_name": "Россия",
+                        "location": "Европа",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5"
+                    },
+                    "comments": "null",
+                    "is_active": true,
+                    "insert_date": "2012-06-20T16:16:00.000Z",
+                    "telephone_number": "+79260722187",
+                    "additional_phone_number": null,
+                    "uuid": "d975e226-a7bc-481d-ac43-0e6d4ca6558c",
+                    "is_verified": false,
+                    "deactivation_date": "2200-12-30T21:00:00.000Z",
+                    "number": "+79260722187",
+                    "is_main": true,
+                    "user_d_login4deactivator": "grsidorkina",
+                    "user_d_login4author": "grsidorkina"
+                }
+            ],
+            "active": true,
+            "uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef",
+            "is_employee": true,
+            "emails": [],
+            "signatory_in_dealerships": [
+                {
+                    "business_domain_uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "organization_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                    "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3",
+                    "document_uuid": "83e5b7ff-e356-4d23-a4c8-f8d711ba280f"
+                },
+                {
+                    "business_domain_uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "organization_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                    "uuid": "21bbae26-b595-0143-3e05-a9720f170270",
+                    "document_uuid": "83e5b7ff-e356-4d23-a4c8-f8d711ba280f"
+                },
+                {
+                    "business_domain_uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "organization_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                    "uuid": "ebaccbed-cd42-ec43-ed1c-80ee74b22d48",
+                    "document_uuid": "83e5b7ff-e356-4d23-a4c8-f8d711ba280f"
+                },
+                {
+                    "business_domain_uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "organization_uuid": "d927dad5-679e-4adf-a2ae-606e81631a59",
+                    "uuid": "37ad986e-0f3b-65a4-a462-d3cee621f7df",
+                    "document_uuid": "83e5b7ff-e356-4d23-a4c8-f8d711ba280f"
+                },
+                {
+                    "business_domain_uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "organization_uuid": "f19bbf69-b019-4a74-be9d-b9e484a40e7c",
+                    "uuid": "089523b2-ae59-49eb-b7ac-79fab69abf5f",
+                    "document_uuid": "c1c0bcde-7f6e-430f-8ed8-4094cbac3dd2"
+                }
+            ],
+            "under_employees": [
+                {
+                    "uuid": "846ca240-c7f1-414a-bb75-7a0f2abd0aa1"
+                }
+            ],
+            "work_day": {
+                "dealerships": [
+                    {
+                        "vehicle_manufacturer_brand": {
+                            "name_russian": "Мицубиши",
+                            "uuid": "e3f326a2-7089-48ec-b9c9-279f2c67597f",
+                            "name_latin": "Mitsubishi"
+                        },
+                        "name": "ДЦ Алтуфьево Митцубиши",
+                        "location": {
+                            "geo": "55.862771,37.583191",
+                            "name": "РОЛЬФ Алтуфьево",
+                            "uuid": "4d2b6106-66f6-45bd-9ef0-b102cca152cd"
+                        },
+                        "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                    }
+                ],
+                "date_begin": "2024-02-12 09:17:42.057205+03",
+                "date_finish": null,
+                "state": true,
+                "uuid": "174d82fc-2024-426d-9ac1-6fae5603d3ec",
+                "dealership": {
+                    "vehicle_manufacturer_brand": {
+                        "name_russian": "Мицубиши",
+                        "uuid": "e3f326a2-7089-48ec-b9c9-279f2c67597f",
+                        "name_latin": "Mitsubishi"
+                    },
+                    "name": "ДЦ Алтуфьево Митцубиши",
+                    "location": {
+                        "geo": "55.862771,37.583191",
+                        "name": "РОЛЬФ Алтуфьево",
+                        "uuid": "4d2b6106-66f6-45bd-9ef0-b102cca152cd"
+                    },
+                    "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                }
+            },
+            "person": {
+                "padeg": [
+                    {
+                        "name": "фрони иьтягндкоааалиин всру",
+                        "padeg_type": {
+                            "name": "Именительный",
+                            "uuid": "afab98ea-1b38-4089-9135-ac4516d46fd4"
+                        },
+                        "uuid": "1ef89604-54e5-4207-a745-fb298c0698d8"
+                    },
+                    {
+                        "name": "итняалосо уидвифкьраиан гнр",
+                        "padeg_type": {
+                            "name": "Родительный",
+                            "uuid": "03b34056-071c-43e7-99d2-85795f16bb63"
+                        },
+                        "uuid": "053bfd12-83dc-4a09-9744-27e8e6afaff7"
+                    },
+                    {
+                        "name": "фану гвадяьитсиралкрооин ин",
+                        "padeg_type": {
+                            "name": "Дательный",
+                            "uuid": "4ba3a36e-0247-4d27-8003-5ed3725d4b61"
+                        },
+                        "uuid": "d1eb9363-4c4d-4eed-93ed-fe086b4ebf45"
+                    },
+                    {
+                        "name": "аловнкьаир да нигясфуиротин",
+                        "padeg_type": {
+                            "name": "Винительный",
+                            "uuid": "a9b9c242-3312-4dd5-8d76-676501fbfc8f"
+                        },
+                        "uuid": "3130a69a-7f38-41cb-b64a-df13a6f1cba4"
+                    },
+                    {
+                        "name": " нагфньииусатрянклрод виаио",
+                        "padeg_type": {
+                            "name": "Творительный",
+                            "uuid": "a29d8177-35e3-4222-876b-02be5da84ce0"
+                        },
+                        "uuid": "3d03aecf-9e0d-4d70-927c-cb0467a147db"
+                    },
+                    {
+                        "name": " иьа исиояфвдрнкнртлааугони",
+                        "padeg_type": {
+                            "name": "Предложный",
+                            "uuid": "8cbb83f8-e93b-481d-8a34-2f2e5d5dd110"
+                        },
+                        "uuid": "3d120581-2b0e-43b2-96b6-0f9fc1804271"
+                    }
+                ],
+                "famous_person_type": null,
+                "comments": null,
+                "person_type": {
+                    "name": "Физическое лицо",
+                    "uuid": "5e3354b1-b4f6-4d20-95b7-8df0d6e2b352"
+                },
+                "driving_begin_date_is_calc": false,
+                "gender_is_female": true,
+                "birth_date": "1985-11-25T00:00:00.000Z",
+                "citizenship": {
+                    "location_precise": "Восточная Европа",
+                    "code": "643",
+                    "name_eng": "Russian Federation",
+                    "full_name": null,
+                    "name_rus": "Российская Федерация",
+                    "alpha2": "RU",
+                    "alpha3": "RUS",
+                    "short_name": "Россия",
+                    "location": "Европа",
+                    "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5"
+                },
+                "middlename": "инонаварт",
+                "is_married": false,
+                "hide_personal_data": null,
+                "driving_begin_date": "2007-12-22T00:00:00.000Z",
+                "uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef",
+                "date_begin": "2012-06-03T20:00:00.000Z",
+                "children": [],
+                "surname": "икосндраи",
+                "date_finish": null,
+                "name": "угифьял",
+                "photo_url": null
+            },
+            "is_client": true,
+            "fullname": "икосндраи угифьял инонаварт",
+            "user_group_dealership": [
+                {
+                    "business_tasks_subset": [
+                        {
+                            "uuid": "2072dd35-a535-4a62-b8b4-fade8464185f"
+                        },
+                        {
+                            "uuid": "23f88132-7b27-4933-a552-56cde0b42078"
+                        },
+                        {
+                            "uuid": "31655978-b3fc-40ba-b437-dd8bb6de7f3b"
+                        },
+                        {
+                            "uuid": "3c4e361e-8792-4262-8a71-833daea3b7c4"
+                        },
+                        {
+                            "uuid": "4613cb67-41cb-42e4-83f9-932193e73c11"
+                        },
+                        {
+                            "uuid": "4e6a84ea-ae98-4593-b037-cd10a6a78d76"
+                        },
+                        {
+                            "uuid": "80229986-976e-4105-9ee6-d1cc0da19ef6"
+                        },
+                        {
+                            "uuid": "802bfc98-6bba-43d0-b195-3e4c68166ca0"
+                        },
+                        {
+                            "uuid": "a33bf221-3f8b-48be-9bb1-9dc44f4fb058"
+                        },
+                        {
+                            "uuid": "a8d75c3d-e599-4b79-9e3d-d39e11885d4f"
+                        },
+                        {
+                            "uuid": "c2b7f325-3bdc-41fb-b66c-25ca3358406f"
+                        },
+                        {
+                            "uuid": "cfefe3ee-9362-49d6-897b-6ffbf157b41c"
+                        },
+                        {
+                            "uuid": "d98ddaab-3c4e-4218-bfcf-ff697a063c9b"
+                        },
+                        {
+                            "uuid": "e582d2e2-f0e0-4262-b78c-92f415b60bbe"
+                        },
+                        {
+                            "uuid": "fbc95728-4a23-4fd9-b5dc-d435e760c875"
+                        }
+                    ],
+                    "under_groups": [
+                        {
+                            "uuid": "b7feef75-886f-4a82-8f00-d1f7663ce2a9"
+                        },
+                        {
+                            "uuid": "ddd80fe4-c137-4721-819e-58f32baa8b85"
+                        }
+                    ],
+                    "business_subdomain": [
+                        {
+                            "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2"
+                        },
+                        {
+                            "uuid": "e23f6ddb-4cf3-4e7c-bcf9-39b0818b764f"
+                        },
+                        {
+                            "uuid": "f9e148be-3e1e-4c95-9f90-2178b1f7f729"
+                        }
+                    ],
+                    "user_dealership": [
+                        {
+                            "vehicle_manufacturer_brand": {
+                                "name_russian": "Хендэ",
+                                "uuid": "4489660a-51d9-4557-812e-0afb4924f34e",
+                                "name_latin": "Hyundai"
+                            },
+                            "name": "ДЦ Алтуфьево Хендэ",
+                            "location": {
+                                "geo": "55.862771,37.583191",
+                                "name": "РОЛЬФ Алтуфьево",
+                                "uuid": "4d2b6106-66f6-45bd-9ef0-b102cca152cd"
+                            },
+                            "uuid": "37ad986e-0f3b-65a4-a462-d3cee621f7df"
+                        },
+                        {
+                            "vehicle_manufacturer_brand": {
+                                "name_russian": "Мицубиши",
+                                "uuid": "e3f326a2-7089-48ec-b9c9-279f2c67597f",
+                                "name_latin": "Mitsubishi"
+                            },
+                            "name": "ДЦ Алтуфьево Митцубиши",
+                            "location": {
+                                "geo": "55.862771,37.583191",
+                                "name": "РОЛЬФ Алтуфьево",
+                                "uuid": "4d2b6106-66f6-45bd-9ef0-b102cca152cd"
+                            },
+                            "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                        }
+                    ],
+                    "name": "РОПФУ",
+                    "business_domain": [
+                        {
+                            "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                        }
+                    ],
+                    "uuid": "0b4fcdc9-b603-4934-8264-5b8f3188d56a",
+                    "operations_managers": [
+                        {
+                            "uuid": "d09fe2c4-5ddb-4303-8f28-d38846ce093f"
+                        }
+                    ]
+                }
+            ],
+            "managers": [
+                {
+                    "uuid": "d56daec2-8efa-412e-ae54-fdc379bd40a9"
+                }
+            ],
+            "username": "grsidorkina"
+        },
+        "power_of_attorney": {
+            "uuid": null
+        },
+        "client_side_proxy": {
+            "uuid": "3dad60ce-8a42-406d-8b0e-c49561256997"
+        },
+        "is_obligatory_safety_recommendation_of_service": false,
+        "movements_of_goods_counterparty": {
+            "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+            "ui_id": "14326639",
+            "hide_personal_data": null,
+            "archived": false,
+            "is_client": true,
+            "is_forbidden": {
+                "status": false,
+                "reason": null
+            },
+            "is_counterparty": null,
+            "is_approved_client": false,
+            "is_employee": false,
+            "person": {
+                "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+                "person_type": {
+                    "name": "Физическое лицо",
+                    "uuid": "5e3354b1-b4f6-4d20-95b7-8df0d6e2b352"
+                },
+                "date_begin": "2024-01-28T21:00:00.000Z",
+                "date_finish": null,
+                "surname": "Семенов",
+                "name": "Остап",
+                "middlename": "Русланович",
+                "gender_is_female": false,
+                "birth_date": "1997-07-06T00:00:00.000Z",
+                "driving_begin_date": null,
+                "driving_begin_date_is_calc": false,
+                "photo_url": null,
+                "is_married": false,
+                "famous_person_type": null,
+                "hide_personal_data": null,
+                "children": [],
+                "comments": null,
+                "padeg": [
+                    {
+                        "uuid": "98d583e2-9165-45f3-adc8-4e9a151fc488",
+                        "name": "рнтам вунасо евчеспсоиол",
+                        "padeg_type": {
+                            "uuid": "afab98ea-1b38-4089-9135-ac4516d46fd4",
+                            "name": "Именительный"
+                        }
+                    },
+                    {
+                        "uuid": "a6b41024-261d-44e9-8ef6-686e695f4da9",
+                        "name": "слнсаор  теочеснвпомауив",
+                        "padeg_type": {
+                            "uuid": "03b34056-071c-43e7-99d2-85795f16bb63",
+                            "name": "Родительный"
+                        }
+                    },
+                    {
+                        "uuid": "9487d581-0eb5-4abf-ad78-5cfdd104e72c",
+                        "name": "нумстиоаепвв счасонлео р",
+                        "padeg_type": {
+                            "uuid": "4ba3a36e-0247-4d27-8003-5ed3725d4b61",
+                            "name": "Дательный"
+                        }
+                    },
+                    {
+                        "uuid": "9b9a91f6-b376-4212-884a-c38ebc9def7e",
+                        "name": "рнтвеавнапеуч лосоомс ис",
+                        "padeg_type": {
+                            "uuid": "a9b9c242-3312-4dd5-8d76-676501fbfc8f",
+                            "name": "Винительный"
+                        }
+                    },
+                    {
+                        "uuid": "7c8fe1e2-c3da-4869-a48c-4619d5c687d1",
+                        "name": "утссечомлрноаоаеп  инсвв",
+                        "padeg_type": {
+                            "uuid": "a29d8177-35e3-4222-876b-02be5da84ce0",
+                            "name": "Творительный"
+                        }
+                    },
+                    {
+                        "uuid": "2fb10390-6100-4af1-89b8-017087a95b60",
+                        "name": "пср лсоусвеонаиотам нчев",
+                        "padeg_type": {
+                            "uuid": "8cbb83f8-e93b-481d-8a34-2f2e5d5dd110",
+                            "name": "Предложный"
+                        }
+                    }
+                ]
+            },
+            "telephones": [
+                {
+                    "uuid": "80462fae-5967-484c-b0de-5eca989e2678",
+                    "is_main": false,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277290858",
+                    "number": "+79277290858",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-01-28T21:00:00.000Z",
+                    "deactivation_date": "2024-02-06T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "grsidorkina",
+                    "is_active": false
+                },
+                {
+                    "uuid": "cfce462f-6572-4f7e-a69a-9cf948c5cd86",
+                    "is_main": true,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277920885",
+                    "number": "+79277920885",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-02-06T21:00:00.000Z",
+                    "deactivation_date": "2200-12-30T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "iptarasova",
+                    "is_active": true
+                }
+            ],
+            "emails": [
+                {
+                    "uuid": "3e787ef4-ba73-4d35-bb72-1d208c077e8c",
+                    "email_address": "ESAssylov@rolf.ru",
+                    "is_verified": false,
+                    "is_main": true,
+                    "deactivation_date": null,
+                    "is_archived": false
+                }
+            ],
+            "addresses": [],
+            "status": "active"
+        },
+        "cash_movement_counterparty": {
+            "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+            "ui_id": "14326639",
+            "hide_personal_data": null,
+            "archived": false,
+            "is_client": true,
+            "is_forbidden": {
+                "status": false,
+                "reason": null
+            },
+            "is_counterparty": null,
+            "is_approved_client": false,
+            "is_employee": false,
+            "person": {
+                "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0",
+                "person_type": {
+                    "name": "Физическое лицо",
+                    "uuid": "5e3354b1-b4f6-4d20-95b7-8df0d6e2b352"
+                },
+                "date_begin": "2024-01-28T21:00:00.000Z",
+                "date_finish": null,
+                "surname": "Семенов",
+                "name": "Остап",
+                "middlename": "Русланович",
+                "gender_is_female": false,
+                "birth_date": "1997-07-06T00:00:00.000Z",
+                "driving_begin_date": null,
+                "driving_begin_date_is_calc": false,
+                "photo_url": null,
+                "is_married": false,
+                "famous_person_type": null,
+                "hide_personal_data": null,
+                "children": [],
+                "comments": null,
+                "padeg": [
+                    {
+                        "uuid": "98d583e2-9165-45f3-adc8-4e9a151fc488",
+                        "name": "рнтам вунасо евчеспсоиол",
+                        "padeg_type": {
+                            "uuid": "afab98ea-1b38-4089-9135-ac4516d46fd4",
+                            "name": "Именительный"
+                        }
+                    },
+                    {
+                        "uuid": "a6b41024-261d-44e9-8ef6-686e695f4da9",
+                        "name": "слнсаор  теочеснвпомауив",
+                        "padeg_type": {
+                            "uuid": "03b34056-071c-43e7-99d2-85795f16bb63",
+                            "name": "Родительный"
+                        }
+                    },
+                    {
+                        "uuid": "9487d581-0eb5-4abf-ad78-5cfdd104e72c",
+                        "name": "нумстиоаепвв счасонлео р",
+                        "padeg_type": {
+                            "uuid": "4ba3a36e-0247-4d27-8003-5ed3725d4b61",
+                            "name": "Дательный"
+                        }
+                    },
+                    {
+                        "uuid": "9b9a91f6-b376-4212-884a-c38ebc9def7e",
+                        "name": "рнтвеавнапеуч лосоомс ис",
+                        "padeg_type": {
+                            "uuid": "a9b9c242-3312-4dd5-8d76-676501fbfc8f",
+                            "name": "Винительный"
+                        }
+                    },
+                    {
+                        "uuid": "7c8fe1e2-c3da-4869-a48c-4619d5c687d1",
+                        "name": "утссечомлрноаоаеп  инсвв",
+                        "padeg_type": {
+                            "uuid": "a29d8177-35e3-4222-876b-02be5da84ce0",
+                            "name": "Творительный"
+                        }
+                    },
+                    {
+                        "uuid": "2fb10390-6100-4af1-89b8-017087a95b60",
+                        "name": "пср лсоусвеонаиотам нчев",
+                        "padeg_type": {
+                            "uuid": "8cbb83f8-e93b-481d-8a34-2f2e5d5dd110",
+                            "name": "Предложный"
+                        }
+                    }
+                ]
+            },
+            "telephones": [
+                {
+                    "uuid": "80462fae-5967-484c-b0de-5eca989e2678",
+                    "is_main": false,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277290858",
+                    "number": "+79277290858",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-01-28T21:00:00.000Z",
+                    "deactivation_date": "2024-02-06T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "grsidorkina",
+                    "is_active": false
+                },
+                {
+                    "uuid": "cfce462f-6572-4f7e-a69a-9cf948c5cd86",
+                    "is_main": true,
+                    "country": {
+                        "alpha2": "RU",
+                        "alpha3": "RUS",
+                        "code": "643",
+                        "short_name": "Россия",
+                        "name_rus": "Российская Федерация",
+                        "name_eng": "Russian Federation",
+                        "uuid": "439545ec-5b4e-4dc5-af37-7769ddee19e5",
+                        "location": "Европа",
+                        "location_precise": "Восточная Европа",
+                        "full_name": null
+                    },
+                    "telephone_number": "+79277920885",
+                    "number": "+79277920885",
+                    "additional_phone_number": null,
+                    "is_verified": false,
+                    "comments": "null",
+                    "insert_date": "2024-02-06T21:00:00.000Z",
+                    "deactivation_date": "2200-12-30T21:00:00.000Z",
+                    "user_d_login4author": "iptarasova",
+                    "user_d_login4deactivator": "iptarasova",
+                    "is_active": true
+                }
+            ],
+            "emails": [
+                {
+                    "uuid": "3e787ef4-ba73-4d35-bb72-1d208c077e8c",
+                    "email_address": "ESAssylov@rolf.ru",
+                    "is_verified": false,
+                    "is_main": true,
+                    "deactivation_date": null,
+                    "is_archived": false
+                }
+            ],
+            "addresses": [],
+            "status": "active"
+        },
+        "payment_alternative_counterparty": {
+            "uuid": "6fcf01ec-77d0-4135-9b5e-7f9f8acf82d7"
+        },
+        "insert_date": "2024-02-12T06:04:21.400Z",
+        "attached_files_list_json": {},
+        "finish_date": null,
+        "date_of_last_stage_change": null,
+        "is_potential": false,
+        "is_leasing": null,
+        "orders": [
+            {
+                "uuid": "e96eeed7-748d-44c8-bfbd-8e812594707e",
+                "ui_id": "e96eee",
+                "status_ui": "Обсуждение",
+                "general_need": {
+                    "uuid": "fc798124-166a-4314-a580-d9d95bc384f9"
+                },
+                "cross_selling_order": {
+                    "uuid": "6cf3ae75-a4f3-4640-9399-cc31fd4d7ad2"
+                },
+                "legal_execution_stage": {
+                    "uuid": "7e5e5e6a-36c3-40cf-8436-74baefa91349",
+                    "name": "Обсуждение",
+                    "is_for_orders": true,
+                    "is_for_payment": true,
+                    "description": null
+                },
+                "sale_is_stopped": false,
+                "sale_stop_reason": {
+                    "uuid": null,
+                    "name": null
+                },
+                "source_vehicle": {
+                    "uuid": "92a60d5e-31d4-47bd-8cef-8244d9d7c9eb"
+                },
+                "good": null,
+                "business_domain": {
+                    "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "name": "Финансовые услуги"
+                },
+                "business_subdomain": {
+                    "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2",
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "name": "Кредитование",
+                    "description": "Оформление банковских продуктов"
+                },
+                "good_ref_type": {
+                    "uuid": "661e68b9-7901-49c0-89aa-4c1a30015bb2",
+                    "name": "Конкретные данные услуги F&I"
+                },
+                "needs_and_orders_good_type": {
+                    "uuid": "c53c5b17-86dc-45ec-8579-84d780b6d340",
+                    "name": "Заявка на автокредит",
+                    "good_ref_type": {
+                        "uuid": "661e68b9-7901-49c0-89aa-4c1a30015bb2"
+                    },
+                    "is_general": false,
+                    "is_detail": true,
+                    "may_be_paid": false,
+                    "f_and_i_product": {
+                        "uuid": "c9644534-0d5e-43ea-a816-0590cdebe1df"
+                    },
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "good_class": {
+                        "uuid": "ef970858-161b-4c81-af6b-cd405bd46013"
+                    },
+                    "business_subdomain": {
+                        "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2"
+                    }
+                },
+                "needs_and_orders_class": {
+                    "uuid": "82109a9a-409a-11ed-b878-0242ac120002",
+                    "name": "Продажа",
+                    "operation_direction": "1",
+                    "is_return": false
+                },
+                "good_class": {
+                    "uuid": "ef970858-161b-4c81-af6b-cd405bd46013",
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "name": "Кредит / лизинг"
+                },
+                "client_class": {
+                    "uuid": "eb4becee-37a5-4292-bb69-4cd600ce0f4d",
+                    "needs_and_orders_class": {
+                        "uuid": "82109a9a-409a-11ed-b878-0242ac120002"
+                    },
+                    "name": "Физ. лицо или единичная продажа юр. лицо"
+                },
+                "priority_for_recommendation_of_service": {
+                    "uuid": null,
+                    "name": null,
+                    "sort_priority": null
+                },
+                "accounting_category": {
+                    "uuid": null,
+                    "name": null
+                },
+                "client": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "dealership": {
+                    "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                },
+                "salesman": {
+                    "uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef"
+                },
+                "power_of_attorney": {
+                    "uuid": null
+                },
+                "client_side_proxy": {
+                    "uuid": null
+                },
+                "need_returned": {
+                    "uuid": null
+                },
+                "movements_of_goods_counterparty": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "cash_movement_counterparty": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "payment_alternative_counterparty": {
+                    "uuid": null
+                },
+                "attached_files_list_json": {},
+                "sale": {
+                    "sale_value_including_vat": null,
+                    "sale_vat_amount": null,
+                    "sale_value_excluding_vat": null,
+                    "sale_vat_rate_as_percentage": null,
+                    "vat_from_price_difference": null
+                },
+                "recommended_retail_price": 0,
+                "quantity": 1,
+                "cost_price": 0,
+                "negotiated_price": 0,
+                "standard_hours_for_work": 0,
+                "is_obligatory_safety_recommendation_of_service": false,
+                "is_included_in_single_document_with_vehicle_of_cross_selling": null,
+                "on_credit": null,
+                "insert_date": "2024-02-12T06:04:27.620Z",
+                "finish_date": null,
+                "date_of_last_stage_change": null,
+                "additional_needs": [],
+                "is_leasing": null,
+                "communications": [],
+                "initial_communication": {},
+                "orders_fi": {
+                    "uuid": "e96eeed7-748d-44c8-bfbd-8e812594707e",
+                    "integration_type": {
+                        "uuid": "37cbee87-2816-4b6c-beb0-0caa1f3d927b",
+                        "name": "direct_integration",
+                        "description": "Используется для оформления продуктов в рамках прямой интеграции с СК/банком"
+                    },
+                    "calculation_purpose": {
+                        "uuid": "7297d19b-314d-4b14-8a07-ce6425eaccfa",
+                        "name": "Заявка на оформление банковского продукта"
+                    },
+                    "product": {
+                        "uuid": "c9644534-0d5e-43ea-a816-0590cdebe1df",
+                        "name": "Автокредит",
+                        "code": "vehicle_credit",
+                        "elt_code": null,
+                        "is_active": true,
+                        "prontox_name": null,
+                        "accounting_operation_code": "0000",
+                        "vat_rate_as_percentage": null,
+                        "additional_info": {
+                            "product_name": "Автокредит",
+                            "description": "кредитный договор с целью использования денежных средств, предоставляемых банком Покупателю, на приобретение у Продавца Автомобиля ",
+                            "discount_condition": "с партнерами Продавца - банками (по выбору Покупателя) заключается ",
+                            "sum_description": "с целью использования денежных средств, предоставляемых банком Покупателю, на приобретение у Продавца Автомобиля; ",
+                            "print_description": "кредитного договора"
+                        },
+                        "product_type": {
+                            "uuid": "e54b8c91-da34-410c-a85b-1915e4eb4da2",
+                            "name": "Банковский"
+                        }
+                    },
+                    "insurance_company": null,
+                    "insurance_program": null,
+                    "insurance_program_option": null,
+                    "product_without_integration_tariff": null,
+                    "bank": null,
+                    "credit_organization": {
+                        "uuid": "cfb1a8dc-aacf-4ce8-942d-a517f4425b32",
+                        "name": "Тинькофф Банк",
+                        "logo_url": "tinkoff-bank.png",
+                        "elt_id": "56"
+                    },
+                    "credit_program": null,
+                    "rolf_finance": null,
+                    "data_as_json": {
+                        "vehicle": {
+                            "isNew": false,
+                            "category": "B",
+                            "mark": "JEEP",
+                            "model": "GRAND CHEROKEE",
+                            "vin": "1C4RJFBGXEC250224",
+                            "year": 2013,
+                            "power": 286,
+                            "color": "Черный",
+                            "type": 8,
+                            "price": {
+                                "cost": 2299000,
+                                "addCost": 0
+                            },
+                            "transmissionType": 1,
+                            "engineType": "0",
+                            "registrationDocument": {
+                                "type": 1,
+                                "series": "77УР",
+                                "number": "734462",
+                                "emergencyCallDevice": "123123123123123",
+                                "date": "2013-10-30"
+                            },
+                            "wheelDriveType": 3,
+                            "environmentalClass": 4,
+                            "maximumPermittedWeight": 2,
+                            "scrappage": false,
+                            "isOffsetOfDebt": false
+                        },
+                        "credit": {
+                            "creditOrganization": [
+                                {
+                                    "name": "Тинькофф Банк",
+                                    "uuid": "cfb1a8dc-aacf-4ce8-942d-a517f4425b32"
+                                }
+                            ],
+                            "parameters": {
+                                "residualPayment": false,
+                                "firstPayment": 0,
+                                "residualVehicleValue": 0,
+                                "creditAmount": 0,
+                                "creditTerm": 60,
+                                "prepaymentSum": 99000
+                            },
+                            "additionalServicesSum": 0
+                        },
+                        "owner": {
+                            "individual": {
+                                "surname": "Семенов",
+                                "surnameChanging": false,
+                                "formerSurname": "",
+                                "name": "Остап",
+                                "patronymic": "Русланович",
+                                "birthday": "1997-07-06",
+                                "sex": 0,
+                                "email": "ESAssylov@rolf.ru",
+                                "education": 1,
+                                "addContact": [
+                                    {
+                                        "phone": "+79277290858",
+                                        "type": 1
+                                    }
+                                ],
+                                "passport": {
+                                    "series": "4518",
+                                    "number": "243056",
+                                    "issuedBy": "ОТДЕЛОМ УФМС РОССИИ ПО ГОР. МОСКВЕ ПО РАЙОНУ ЯСЕНЕВО",
+                                    "placeOfBirth": "г. Москва",
+                                    "issuedDate": "2017-08-16",
+                                    "subdivision": "770-125"
+                                },
+                                "residence": {
+                                    "nationality": false,
+                                    "isTaxResident": false,
+                                    "countryOfTaxResidency": "",
+                                    "taxNumberForeignCountry": "",
+                                    "countryOfBirth": 0,
+                                    "isResidencePermit": false,
+                                    "isCitizenshipUsa": false
+                                },
+                                "registrationAddress": {
+                                    "unrestrictedValue": "115487, г Москва, р-н Нагатино-Садовники, пр-кт Андропова, д 36",
+                                    "value": "г Москва, пр-кт Андропова, д 36",
+                                    "index": "115487",
+                                    "country": "Россия",
+                                    "region": "Москва",
+                                    "city": "Москва",
+                                    "street": "Андропова",
+                                    "house": "36",
+                                    "regionKladrId": "7700000000000",
+                                    "cityKladrId": "7700000000000",
+                                    "streetKladrId": "77000000000075000",
+                                    "fiasId": "f99fb0f9-63d2-4a45-a52d-ce77f8c02425"
+                                },
+                                "actualAddress": {
+                                    "unrestrictedValue": "119334, г Москва, пр-кт Вернадского, д 4",
+                                    "value": "г Москва, пр-кт Вернадского, д 4",
+                                    "index": "119334",
+                                    "country": "Россия",
+                                    "region": "Москва",
+                                    "city": "Москва",
+                                    "street": "Вернадского",
+                                    "house": "4",
+                                    "regionKladrId": "7700000000000",
+                                    "cityKladrId": "7700000000000",
+                                    "streetKladrId": "77000000000095300",
+                                    "fiasId": "1e3e2818-9fe2-4981-89c7-612cec372a8c"
+                                }
+                            }
+                        },
+                        "borrower": {
+                            "individual": {
+                                "surname": "Семенов",
+                                "surnameChanging": false,
+                                "formerSurname": "",
+                                "name": "Остап",
+                                "patronymic": "Русланович",
+                                "birthday": "1997-07-06",
+                                "sex": 0,
+                                "email": "ESAssylov@rolf.ru",
+                                "education": 1,
+                                "addContact": [
+                                    {
+                                        "phone": "+79277290858",
+                                        "type": 1
+                                    }
+                                ],
+                                "passport": {
+                                    "series": "4518",
+                                    "number": "243056",
+                                    "issuedBy": "ОТДЕЛОМ УФМС РОССИИ ПО ГОР. МОСКВЕ ПО РАЙОНУ ЯСЕНЕВО",
+                                    "placeOfBirth": "г. Москва",
+                                    "issuedDate": "2017-08-16",
+                                    "subdivision": "770-125"
+                                },
+                                "residence": {
+                                    "nationality": false,
+                                    "isTaxResident": false,
+                                    "countryOfTaxResidency": "",
+                                    "taxNumberForeignCountry": "",
+                                    "countryOfBirth": 0,
+                                    "isResidencePermit": false,
+                                    "isCitizenshipUsa": false
+                                },
+                                "registrationAddress": {
+                                    "unrestrictedValue": "115487, г Москва, р-н Нагатино-Садовники, пр-кт Андропова, д 36",
+                                    "value": "г Москва, пр-кт Андропова, д 36",
+                                    "index": "115487",
+                                    "country": "Россия",
+                                    "region": "Москва",
+                                    "city": "Москва",
+                                    "street": "Андропова",
+                                    "house": "36",
+                                    "regionKladrId": "7700000000000",
+                                    "cityKladrId": "7700000000000",
+                                    "streetKladrId": "77000000000075000",
+                                    "fiasId": "f99fb0f9-63d2-4a45-a52d-ce77f8c02425"
+                                },
+                                "actualAddress": {
+                                    "unrestrictedValue": "119334, г Москва, пр-кт Вернадского, д 4",
+                                    "value": "г Москва, пр-кт Вернадского, д 4",
+                                    "index": "119334",
+                                    "country": "Россия",
+                                    "region": "Москва",
+                                    "city": "Москва",
+                                    "street": "Вернадского",
+                                    "house": "4",
+                                    "regionKladrId": "7700000000000",
+                                    "cityKladrId": "7700000000000",
+                                    "streetKladrId": "77000000000095300",
+                                    "fiasId": "1e3e2818-9fe2-4981-89c7-612cec372a8c"
+                                },
+                                "spouse": {
+                                    "marriageStatus": 2,
+                                    "childrenCountUnder21": 1,
+                                    "dependantsNumber": 1,
+                                    "marriageYears": 0,
+                                    "surname": "",
+                                    "name": "",
+                                    "patronymic": "",
+                                    "surnameChanging": false,
+                                    "formerSurname": "",
+                                    "birthDate": "",
+                                    "birthPlace": "",
+                                    "socialStatus": 0,
+                                    "monthlyIncomeDocType": 0,
+                                    "monthlyIncome": 0,
+                                    "addIncomeDocType": 0,
+                                    "addIncome": 0
+                                }
+                            },
+                            "professionalActivities": {
+                                "socialStatus": 1,
+                                "positionCharacter": 2,
+                                "position": "Специалист",
+                                "employmentType": "Полная занятость",
+                                "contractType": "Трудовой договор",
+                                "durationInCurrentJob": 7,
+                                "totalWorkExperience": 7,
+                                "employer": {
+                                    "inn": "7116001327",
+                                    "organizationType": 1,
+                                    "organizationName": "НОВОМОСКОВСКОЕ ТЭ ОАО",
+                                    "phone": "+79123334421",
+                                    "industry": 4,
+                                    "numberOfEmployees": 250,
+                                    "actualAddress": {
+                                        "unrestrictedValue": "г Москва , ул Савельева д 48",
+                                        "value": "г Москва , ул Савельева д 48"
+                                    }
+                                },
+                                "additionalInfo": {
+                                    "isRelationGovServices": false,
+                                    "relativePublicOfficial": false,
+                                    "relativePublicOfficialPosition": ""
+                                }
+                            },
+                            "incomeAndExpenses": {
+                                "income": {
+                                    "monthlyIncomeDocType": 1,
+                                    "monthlyIncome": 60000,
+                                    "addIncome": 0,
+                                    "familyTotalIncome": 120000
+                                },
+                                "expenses": {
+                                    "sumCredit": 60000,
+                                    "sumCurrent": 0,
+                                    "sumOtherCredit": 1,
+                                    "sumMortgage": 0,
+                                    "creditHistoryCode": 121211
+                                }
+                            }
+                        },
+                        "attachedDocuments": [
+                            {
+                                "uuid": "cddb614f-a955-4b28-aca6-072435e9e2eb",
+                                "e_type": false,
+                                "entity": "client",
+                                "type": {
+                                    "uuid": "590daa53-72b2-4520-8232-25ff67607617",
+                                    "name": "Паспорт гражданина РФ"
+                                },
+                                "images": [
+                                    {
+                                        "uuid": "8cfb1b3d-5b1a-45e7-925a-c35a836f5731",
+                                        "image_url": "https://rolf-dev.storage.yandexcloud.net/8cfb1b3d-5b1a-45e7-925a-c35a836f5731",
+                                        "file_name": "паспорт.pdf",
+                                        "file_mimetype": "application/pdf",
+                                        "insert_date": "2024-02-02T05:41:51.047Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "uuid": "0f6611ed-ae7d-43d8-8760-b7f4b728ddda",
+                                "entity": "orders",
+                                "e_type": false,
+                                "type": {
+                                    "uuid": "994d90f1-7f68-4fe5-b810-45e9da1fe6be",
+                                    "name": "Агентское СОПД F&I"
+                                },
+                                "images": [
+                                    {
+                                        "uuid": "e4442d01-71c5-4d1c-b7a2-5aa1ee0a0a51",
+                                        "image_url": "https://rolf-dev.storage.yandexcloud.net/e4442d01-71c5-4d1c-b7a2-5aa1ee0a0a51",
+                                        "file_name": "",
+                                        "file_mimetype": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "elt_result_json": null,
+                    "direct_integration_result_json": {
+                        "values": {
+                            "contact": {
+                                "middleName": "Русланович",
+                                "email": "ESAssylov@rolf.ru",
+                                "familyIncome": 120000,
+                                "numberOfChildren": "zero",
+                                "education": "low",
+                                "maritalStatus": "single",
+                                "birthPlace": "г. Москва",
+                                "mobile": {
+                                    "number": "9277290858"
+                                },
+                                "gender": "male",
+                                "personalIncome": 60000,
+                                "lastName": "Семенов",
+                                "firstName": "Остап",
+                                "birthDate": "1997-07-06"
+                            }
+                        },
+                        "statusCode": "Ok",
+                        "id": "c5cb41079de34963bed8f448e1bb7d0a",
+                        "options": {
+                            "car": {
+                                "brand": "Jeep",
+                                "model": "Grand Cherokee",
+                                "year": 2013
+                            },
+                            "creditInfo": {
+                                "carCost": 2299000,
+                                "creditType": "used",
+                                "initialFee": 0,
+                                "creditTerm": 60
+                            }
+                        },
+                        "status": "fullApp",
+                        "step": "finished",
+                        "config": {
+                            "name": "cobroker.common.default",
+                            "version": "0.0.1"
+                        }
+                    },
+                    "flora_result_json": {
+                        "stage": {
+                            "code": "application_confirmation_requesting",
+                            "description": "Заявка передана на рассмотрение"
+                        },
+                        "calculation_status": {
+                            "code": "OK"
+                        },
+                        "application_creating": {
+                            "application_id": "c5cb41079de34963bed8f448e1bb7d0a",
+                            "additional_info": {
+                                "application_direct_link": "https://forma.tinkoff.ru/cobroker/c5cb41079de34963bed8f448e1bb7d0a?token=4ab7608b-b63d-4ea1-b374-775252896190"
+                            },
+                            "message": "",
+                            "integration_info": {
+                                "statusCode": 200,
+                                "time": "2024-02-12T06:04:28.385Z",
+                                "method": "",
+                                "definition_name": "",
+                                "url": "",
+                                "error": "",
+                                "_error": null
+                            }
+                        },
+                        "application_files_attaching": {
+                            "application_id": "c5cb41079de34963bed8f448e1bb7d0a",
+                            "attached_documents": [
+                                {
+                                    "uuid": "cddb614f-a955-4b28-aca6-072435e9e2eb",
+                                    "type": {
+                                        "uuid": "590daa53-72b2-4520-8232-25ff67607617",
+                                        "name": "Паспорт гражданина РФ"
+                                    },
+                                    "credit_organization_payload": {
+                                        "uuid": "f2084d19-e362-4d4e-82ee-439ae2ab6cce"
+                                    }
+                                },
+                                {
+                                    "uuid": "0f6611ed-ae7d-43d8-8760-b7f4b728ddda",
+                                    "type": {
+                                        "uuid": "994d90f1-7f68-4fe5-b810-45e9da1fe6be",
+                                        "name": "Агентское СОПД F&I"
+                                    },
+                                    "credit_organization_payload": {
+                                        "uuid": "7fa2853f-0baf-4778-ad62-2f51c9b31537"
+                                    }
+                                }
+                            ]
+                        },
+                        "application_filling": {
+                            "application_id": "c5cb41079de34963bed8f448e1bb7d0a",
+                            "message": "",
+                            "integration_info": {
+                                "statusCode": 200,
+                                "time": "2024-02-12T06:04:30.055Z",
+                                "method": "",
+                                "definition_name": "",
+                                "url": "",
+                                "error": "",
+                                "_error": null
+                            }
+                        },
+                        "application_confirmation_requesting": {
+                            "application_id": "c5cb41079de34963bed8f448e1bb7d0a",
+                            "message": "",
+                            "integration_info": {
+                                "statusCode": 200,
+                                "time": "2024-02-12T06:04:31.334Z",
+                                "method": "",
+                                "definition_name": "",
+                                "url": "",
+                                "error": "",
+                                "_error": null
+                            }
+                        }
+                    },
+                    "elt_calculation_id": null,
+                    "integrations_calculation_id": "c5cb41079de34963bed8f448e1bb7d0a",
+                    "commission_remuneration_percentage": null,
+                    "service_start_date": null,
+                    "service_end_date": null
+                }
+            },
+            {
+                "uuid": "61fe3d45-52c3-4eae-9fb5-86c2bb96e97b",
+                "ui_id": "61fe3d",
+                "status_ui": "Обсуждение",
+                "general_need": {
+                    "uuid": "fc798124-166a-4314-a580-d9d95bc384f9"
+                },
+                "cross_selling_order": {
+                    "uuid": null
+                },
+                "legal_execution_stage": {
+                    "uuid": "7e5e5e6a-36c3-40cf-8436-74baefa91349",
+                    "name": "Обсуждение",
+                    "is_for_orders": true,
+                    "is_for_payment": true,
+                    "description": null
+                },
+                "sale_is_stopped": false,
+                "sale_stop_reason": {
+                    "uuid": null,
+                    "name": null
+                },
+                "source_vehicle": {
+                    "uuid": "aa4a4e57-f4be-4015-a028-8f13fb7857f3"
+                },
+                "good": {
+                    "text_description": "Кредит"
+                },
+                "business_domain": {
+                    "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231",
+                    "name": "Финансовые услуги"
+                },
+                "business_subdomain": {
+                    "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2",
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "name": "Кредитование",
+                    "description": "Оформление банковских продуктов"
+                },
+                "good_ref_type": {
+                    "uuid": "661e68b9-7901-49c0-89aa-4c1a30015bb2",
+                    "name": "Конкретные данные услуги F&I"
+                },
+                "needs_and_orders_good_type": {
+                    "uuid": "58f0c37a-efd9-492c-90e5-5f96f8920387",
+                    "name": "Автокредит",
+                    "good_ref_type": {
+                        "uuid": "661e68b9-7901-49c0-89aa-4c1a30015bb2"
+                    },
+                    "is_general": false,
+                    "is_detail": true,
+                    "may_be_paid": false,
+                    "f_and_i_product": {
+                        "uuid": "c9644534-0d5e-43ea-a816-0590cdebe1df"
+                    },
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "good_class": {
+                        "uuid": "ef970858-161b-4c81-af6b-cd405bd46013"
+                    },
+                    "business_subdomain": {
+                        "uuid": "1dd5c215-e200-4303-8bf1-b2560013ccd2"
+                    }
+                },
+                "needs_and_orders_class": {
+                    "uuid": "82109a9a-409a-11ed-b878-0242ac120002",
+                    "name": "Продажа",
+                    "operation_direction": "1",
+                    "is_return": false
+                },
+                "good_class": {
+                    "uuid": "ef970858-161b-4c81-af6b-cd405bd46013",
+                    "business_domain": {
+                        "uuid": "e805886c-c8d3-4108-b7ec-1cff6ea08231"
+                    },
+                    "name": "Кредит / лизинг"
+                },
+                "client_class": {
+                    "uuid": "eb4becee-37a5-4292-bb69-4cd600ce0f4d",
+                    "needs_and_orders_class": {
+                        "uuid": "82109a9a-409a-11ed-b878-0242ac120002"
+                    },
+                    "name": "Физ. лицо или единичная продажа юр. лицо"
+                },
+                "priority_for_recommendation_of_service": {
+                    "uuid": null,
+                    "name": null,
+                    "sort_priority": null
+                },
+                "accounting_category": {
+                    "uuid": null,
+                    "name": null
+                },
+                "client": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "dealership": {
+                    "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                },
+                "salesman": {
+                    "uuid": "738f1e57-0957-4325-b971-6f1f6f04c5ef"
+                },
+                "power_of_attorney": {
+                    "uuid": null
+                },
+                "client_side_proxy": {
+                    "uuid": null
+                },
+                "need_returned": {
+                    "uuid": null
+                },
+                "movements_of_goods_counterparty": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "cash_movement_counterparty": {
+                    "uuid": "0f3a302e-0ef5-4608-b106-ccc247ec35b0"
+                },
+                "payment_alternative_counterparty": {
+                    "uuid": null
+                },
+                "attached_files_list_json": {},
+                "sale": {
+                    "sale_value_including_vat": null,
+                    "sale_vat_amount": null,
+                    "sale_value_excluding_vat": null,
+                    "sale_vat_rate_as_percentage": null,
+                    "vat_from_price_difference": null
+                },
+                "recommended_retail_price": 0,
+                "quantity": 1,
+                "cost_price": 0,
+                "negotiated_price": 0,
+                "standard_hours_for_work": null,
+                "is_obligatory_safety_recommendation_of_service": false,
+                "is_included_in_single_document_with_vehicle_of_cross_selling": null,
+                "on_credit": null,
+                "insert_date": "2024-02-12T06:08:48.206Z",
+                "finish_date": null,
+                "date_of_last_stage_change": null,
+                "additional_needs": [],
+                "is_leasing": null,
+                "communications": [],
+                "initial_communication": {},
+                "orders_fi": {
+                    "uuid": "61fe3d45-52c3-4eae-9fb5-86c2bb96e97b",
+                    "integration_type": {
+                        "uuid": "6c968d99-f576-42a2-9747-5072be7ab6a8",
+                        "name": "non_flora",
+                        "description": "Используется для регистрации оформления продуктов, не в рамках системы Flora (точный способ интеграции неизвестен, продукт сохраняется уже готовым)"
+                    },
+                    "calculation_purpose": {
+                        "uuid": "92d69760-e693-4f55-b115-e4c599dcd7c2",
+                        "name": "Оформление банковского продукта"
+                    },
+                    "product": {
+                        "uuid": "c9644534-0d5e-43ea-a816-0590cdebe1df",
+                        "name": "Автокредит",
+                        "code": "vehicle_credit",
+                        "elt_code": null,
+                        "is_active": true,
+                        "prontox_name": null,
+                        "accounting_operation_code": "0000",
+                        "vat_rate_as_percentage": null,
+                        "additional_info": {
+                            "product_name": "Автокредит",
+                            "description": "кредитный договор с целью использования денежных средств, предоставляемых банком Покупателю, на приобретение у Продавца Автомобиля ",
+                            "discount_condition": "с партнерами Продавца - банками (по выбору Покупателя) заключается ",
+                            "sum_description": "с целью использования денежных средств, предоставляемых банком Покупателю, на приобретение у Продавца Автомобиля; ",
+                            "print_description": "кредитного договора"
+                        },
+                        "product_type": {
+                            "uuid": "e54b8c91-da34-410c-a85b-1915e4eb4da2",
+                            "name": "Банковский"
+                        }
+                    },
+                    "insurance_company": null,
+                    "insurance_program": null,
+                    "insurance_program_option": null,
+                    "product_without_integration_tariff": null,
+                    "bank": null,
+                    "credit_organization": null,
+                    "credit_program": null,
+                    "rolf_finance": null,
+                    "data_as_json": null,
+                    "elt_result_json": {
+                        "contract_date": "2024-02-12"
+                    },
+                    "direct_integration_result_json": null,
+                    "flora_result_json": {
+                        "stage": {
+                            "code": "manual_confirmation",
+                            "description": "Внесение данных по оформленной сделке"
+                        },
+                        "calculation_status": {
+                            "code": "OK"
+                        },
+                        "manual_confirmation": {
+                            "application_id": null,
+                            "flora_application_uuid": null,
+                            "monthly_payment_amount": null,
+                            "credit_amount": null,
+                            "duration_m": null,
+                            "duration_y": null,
+                            "first_payment_amount": null,
+                            "rate": null,
+                            "integration_credit_program_id": null,
+                            "integration_credit_program_name": null,
+                            "commission_remuneration_percentage": null,
+                            "additional_products_common_info": {
+                                "quantity": null
+                            },
+                            "additional_products": null,
+                            "message": null,
+                            "integration_info": {
+                                "statusCode": 200,
+                                "time": "2023-10-24T15:30:00.000Z",
+                                "method": null,
+                                "definition_name": null,
+                                "url": null,
+                                "error": null,
+                                "_error": null
+                            }
+                        }
+                    },
+                    "elt_calculation_id": null,
+                    "integrations_calculation_id": null,
+                    "commission_remuneration_percentage": null,
+                    "service_start_date": null,
+                    "service_end_date": null
+                }
+            }
+        ],
+        "carts": [],
+        "communications": [
+            {
+                "uuid": "ac62b7b6-3481-4a70-839a-6e669f96af6c",
+                "status_ui": "Выполнено",
+                "status": "completed",
+                "initiated_by_client": true,
+                "date_begin": "2024-01-29T11:27:16.671Z",
+                "date_finish": null,
+                "is_fact_not_plan": true,
+                "communication_number": "ac62b7b6",
+                "is_cancelled": false,
+                "asterisk_cdr_uniqueid": null,
+                "client": {
+                    "uuid": "7307a84e-262a-4f8e-ae24-ab626468c921"
+                },
+                "employee": {
+                    "uuid": "b93f309e-153d-4148-9a24-a1932fbc62fd",
+                    "employee_group": {
+                        "uuid": "358474b7-15f2-4301-8f64-27be9575cc90"
+                    }
+                },
+                "communication_method": {
+                    "uuid": "b63b19d2-3fe4-11ed-b878-0242ac120002",
+                    "name": "Визит",
+                    "legal_document_type_of_existance": "9c20f22c-3fe6-11ed-b878-0242ac120002"
+                },
+                "client_communication_address": {
+                    "uuid": null,
+                    "address_text": null
+                },
+                "dealership": {
+                    "uuid": "664480c9-67e8-375f-f8b2-2d3a0fa4cde3"
+                },
+                "rolf_employee": {
+                    "uuid": "b93f309e-153d-4148-9a24-a1932fbc62fd"
+                },
+                "rolf_employee_communication_address": {
+                    "uuid": null,
+                    "address_text": null
+                },
+                "needs_and_orders": [
+                    {
+                        "uuid": "5a3e05e9-ade4-40cb-ba53-78dc63016ce8",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "1913ef87-6696-45a8-b7e2-261faf3bc53e",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "ec6a10ad-b248-434f-8f77-07724d677cc9",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "2391a60b-295b-4936-aca0-fc4a8b1a2f6a",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "e14d846a-424f-4820-b70f-532ee424d8ec",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "6b5fa4b8-c895-44cf-a250-2f5ffba4bfc6",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a3328300-a641-41f6-9b01-ca300222a4f1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4165620d-ac40-4c4d-a661-0f9b27f69cf1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "fc798124-166a-4314-a580-d9d95bc384f9",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "9079f516-2a8c-49b4-b100-1d042e764990",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "89e3a151-88be-4b71-a815-ff070f9f6116",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "0ea6f131-cc58-4f2e-95d5-98d7c890a8bb",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "46e9c38d-581d-4769-95fe-2794b57690e3",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "66327a70-70e2-4736-abad-bfad7bd0122f",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "01a0304d-65a2-4c91-9137-dbb8d1c67f4a",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "9d9a2ef2-753f-495b-8c8a-c46c80af3042",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4da14477-9efd-470e-881e-8b92007abd0e",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "357c86e3-a07d-4d8e-8352-f6d09a2b1a8a",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "58e7e950-b09c-48b6-bf50-b6b322438fd1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "7b4b311d-76eb-421c-a032-14aa0f3d7bb2",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5f4a4f3e-e5f0-44ae-b243-2ccee551cabd",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "c5e86a84-faed-41fe-89e4-43d6e33dfe08",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "422a5da8-d033-4f2b-bc76-d015b3fa0899",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "8724b68e-11f2-463f-9ea5-b8669308f687",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "944761ac-78e4-40f0-85ef-5973df88a652",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "0936db9c-56d8-4149-8fe3-7a76b9a898ff",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a9253bff-03fd-4f9e-a18c-8932168a6af0",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "cf897715-0780-4e9b-8bab-97947269a697",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "3cc6bf6c-6525-4279-a302-1c7ab00fa414",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "79f7dfc9-6400-4d09-b4c5-3bf57878e5e0",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4a682cb2-7e4c-418e-800e-bbe1a33598f4",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "91ff83d5-9fde-4b15-9e92-c30f4d1a0224",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "34e1b594-c567-4c4b-bb2e-582643872a63",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "98ffe16b-6104-4033-9d75-5449b8b34b5d",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "b2b5c511-8d69-4b49-bb70-48db6e9744c1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "475447ce-282e-4b6d-a039-543894cd7bc0",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "2eda8545-6468-4376-bbe9-0b3cf603c848",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a004b555-5b6b-422a-ba96-86b2c3a373f4",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a7350b84-4298-4178-8a97-b3c9e6c0f4ba",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "8e24dcb9-d14b-4735-a852-2f96134f97e5",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5c0f5df6-4073-4adc-a77d-d74a857b5c88",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4b8676fd-a83c-4899-9105-558623d6c5d9",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "ff7fc68f-2da6-4fa1-9c1a-363184527c1c",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "fe68aab3-24e2-40d0-9d44-966f3a2a7cf8",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a4847b4b-d0b3-4aa4-95e0-09fb598197ae",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "71151c58-f9dd-4ef6-b0f6-773891e1363b",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "939b7e36-82e3-4129-8067-20159e215c51",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "0455e996-8f16-48b5-9478-81bc6f9f956f",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5c4efd53-edcf-4d15-8b05-75a21928e918",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5bc7319e-eca5-43d9-a837-2f51ca7546a8",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "6a3340a8-a721-4df9-9240-fa3f063ac30c",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "46fa64f3-c3e1-48cc-acc9-0354b9d900ff",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4887eff5-9726-4559-8945-de85be63d40d",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f127a472-2379-42c6-a601-3f9a92a87b71",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "170a5b17-e359-461d-b727-e153a81a47f8",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "486a88c1-e9e5-429a-825a-4f70d3b4d061",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "26a43856-9abe-43a5-97a1-ae78de3baf08",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "27995d0a-d98d-47aa-ae62-5c8c6387aa8a",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "ba67d517-1146-409f-b730-ce56384b5bfe",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "e11c5766-c7fb-4ac8-99ce-f7d4a713ea34",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "ab48ad5e-4b94-4dde-989a-8b9e499eda1f",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "fabff5f0-0b28-412f-a69b-97d04b34669d",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "460385d8-7d20-427b-a48e-a5ed588d5941",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a5dc979c-d7ba-4014-bc08-ee65b258f21d",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "db49f3be-ba1d-4b4b-95f2-25a511980df9",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "59bee4f4-865a-49f3-9cac-e2d31a5d578b",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a1eb62a4-8858-4b8b-b527-5dcdac14067e",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "1d0b9014-3355-4694-9125-aac6eedfa4d2",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f7d3d24c-d167-46b0-b244-e327d667a153",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "2282a479-8a89-4b9a-9746-78e6b2234acc",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "cf3807b6-ed5f-4a57-9575-676c38e6b3cf",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a370a7fa-9cc5-49e9-a585-9f6eb6b25970",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "3719e1fa-8514-4c62-8ca1-4652c087b0ce",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "cf47eec9-4d76-4357-aae8-e685b6ded54e",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "e5102f17-1904-4afd-87e1-eb60222fcf81",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f365c36e-aa5e-4001-9ba6-d929a44fabee",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f517e274-d0f8-4236-8674-6fba346664f3",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "0b1897ba-085f-4544-a0b0-5290f4ec9c80",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f00da766-e4a5-4950-995b-83ec32511fd7",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "6a5897b9-5d8a-4c4c-a16a-39d83271c90c",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5f7cb163-76db-457b-bf87-3440474599a1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "4dae9ebf-185e-40eb-b2a9-4b43e5c24ab1",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "69857068-6fac-41e0-9bc2-5ee458d70a05",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "c7805246-ccd8-448e-b9aa-b0fb1838e495",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "bd0a3ca4-8500-46f0-9f57-aa6f82aa0480",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "9cd8258c-e888-4680-85b7-25728d062132",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "f493146d-f44a-46bc-8f3c-6b187d478aa3",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "57d2a34a-95d1-4a11-88c1-2b4f0d7bf672",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "79274f7a-e8a1-4e4c-8c54-cffd4ed8d90a",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "64eea21a-7cd5-4888-898b-e8b0f2586135",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "a05e04e0-9765-4b14-ba1a-d1badbf1b3b9",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "2608eece-64cb-4915-b85f-4f07e12eed19",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "5428f273-d5ca-414d-9ce9-9c6c610c103b",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "090e2de2-f3a7-4a3c-a1d1-4cf33a206fc0",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "e1c7c178-cb91-4dba-b4df-bbfac638c5a4",
+                        "was_identified": true
+                    },
+                    {
+                        "uuid": "bff54e99-2fa8-4e36-92da-5416b84becd7",
+                        "was_identified": true
+                    }
+                ],
+                "legal_documents": []
+            }
+        ],
+        "initial_communication": {
+            "uuid": "ac62b7b6-3481-4a70-839a-6e669f96af6c"
+        },
+        "legal_events": [],
+        "tasks": [],
+        "filling_form_anketa": null,
+        "form_send": [
+            "e96eeed7-748d-44c8-bfbd-8e812594707e"
+        ],
+        "orders_fi_application_created": [
+            "e96eeed7-748d-44c8-bfbd-8e812594707e"
+        ],
+        "orders_fi_application_files_attached": [
+            "e96eeed7-748d-44c8-bfbd-8e812594707e"
+        ],
+        "orders_fi_application_filled": [
+            "e96eeed7-748d-44c8-bfbd-8e812594707e"
+        ],
+        "orders_fi_application_confirmation_requested": [
+            "e96eeed7-748d-44c8-bfbd-8e812594707e"
+        ],
+        "orders_fi_application_confirmation_received": [],
+        "orders_fi_application_offers_received": [],
+        "orders_fi_offer_confirmation_started": [],
+        "manual_confirmation": [],
+        "orders_fi_offer_completed": [],
+        "orders_fi_offer_annulment": [],
+        "orders_fi_application_cancelled": [],
+        "orders_fi_application_used_for_offer": [],
+        "orders_fi_application_used_for_manual_confirmation": [],
+        "orders_fi_offer_cancelled": [],
+        "need_fi_stage": {
+            "code": "orders_fi_application_confirmation_requested",
+            "description": "Подтверждение заявки на получение конкретных предложений запрошено"
+        },
+        "comments": []
+    },
+    "_error": [
+        {
+            "communications": null
+        },
+        {
+            "comments": null
+        }
+    ],
+    "_message": {}
+}
